@@ -1,3 +1,5 @@
+// Optimized CMD Bomb for the Attiny 85 digispark badusb, the payload opens an CMD window 999999999999999999 times, evectivly crashing the system as it runs out of memory.
+// Script is able to execute within 2,1 seconds. (Bootloader time not included).
 #include "DigiKeyboard.h"
 
 void setup() {
